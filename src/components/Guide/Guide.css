@@ -1,0 +1,52 @@
+.guide{
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.guide_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    z-index: 1;
+    margin-top: -20rem;
+    padding: 0 4rem;
+}
+
+.guide_text-left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10rem;
+    background-color: aliceblue;
+    box-shadow: 0 1rem 2rem 0.5rem rgba(0, 6, 83, 0.719);
+}
+
+.guide_text-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem 4rem;
+    height: 5rem;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    color: rgb(31, 31, 31);
+    background-color: rgb(110, 187, 255);
+    border: 1rem solid rgb(255, 255, 255);
+    box-shadow: 0 1rem 8rem 0.5rem rgba(0, 6, 83, 0.719);
+}
+
+
+.guide-img img{
+    /* width: 80rem; */
+    height: 60rem;
+    border-radius: 2rem;
+}

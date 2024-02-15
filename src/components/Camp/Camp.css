@@ -1,0 +1,21 @@
+.camp {
+    display: flex;
+
+}
+
+.camp img {
+    width: 70rem;
+    height: 30rem;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.camp img:last-child {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.camp img:first-child {
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: -2rem;
+}

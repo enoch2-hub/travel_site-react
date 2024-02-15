@@ -1,0 +1,57 @@
+.getapp {
+    height: 80vh;
+    margin-top: 10rem;
+}
+
+
+.getapp-banner {
+    z-index: 0;
+    border-radius: 2rem;
+    background-color: rgb(31, 31, 31);
+    padding-top: 15rem;
+    width: 90rem;
+    height: 30rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.getapp-background-img {
+    position: absolute;
+    z-index: 1;
+    margin-top: -12rem;
+    width: 90rem;
+    height: 50rem;
+}
+
+.getapp-banner-text{
+    z-index: 1;
+    margin-top: -10rem;
+    margin-left: 5rem;
+    color: aliceblue;
+    font-size: 4rem;
+}
+
+
+.getapp-banner-img img{
+    position: absolute;
+    z-index: 1;
+    margin-left: -35rem;
+    width: 50rem;
+    height: 30rem;
+    border-radius: 3rem;
+}
+
+
+.getapp-btn-ios, .getapp-btn-android {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+}
+
+.getapp-btn-ios:active, .getapp-btn-android:active {
+    transform: scale(0.98);
+}

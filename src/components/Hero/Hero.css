@@ -1,0 +1,26 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #282c34;
+    height: 80vh;
+    color: aliceblue;
+    margin-top: 6rem;
+}
+
+.hero-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.hero-title {
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero-2 img{
+    border-radius: 2rem;
+    /* width: 50rem;
+    height: 25rem; */
+}
