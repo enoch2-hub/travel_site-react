@@ -7,9 +7,6 @@ Wander Wise Expeditions is a travel website that offers unique and customizable 
 - [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
@@ -29,4 +26,4 @@ Include a link or GIF showcasing the demo of your website.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/wander-wise-expeditions.git
+   git clone https://github.com/enoch2-hub/travel_site-react.git
