@@ -1,11 +1,11 @@
 .camp {
     display: flex;
-
 }
 
 .camp img {
-    width: 70rem;
-    height: 30rem;
+    /* width: 70rem; */
+    height: 60%;
+    width: 100%;
     border-radius: 2rem;
     position: relative;
 }

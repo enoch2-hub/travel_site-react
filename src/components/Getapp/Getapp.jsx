@@ -8,9 +8,12 @@ import "./Getapp.css";
 const Getapp = () => {
   return (
     <div className="getapp">
-
       <div className="getapp-banner">
-      <img className="getapp-background-img" src={require("../../Assets/background.png")} alt="" />
+        <img
+          className="getapp-background-img"
+          src={require("../../Assets/background.png")}
+          alt=""
+        />
         <section className="getapp-banner-text">
           <h1>Get the app</h1>
           <button className="getapp-btn-ios">
@@ -30,31 +33,3 @@ const Getapp = () => {
 };
 
 export default Getapp;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

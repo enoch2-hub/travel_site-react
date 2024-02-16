@@ -24,3 +24,10 @@ button {
 button:hover {
   background-color: #2184b8;
 }
+
+
+@media (max-width: 1024px) {
+  body {
+    padding: 0;
+  }
+}

@@ -23,7 +23,7 @@ const ImageSlider = ({ images }) => {
   // }, []);
 
   return (
-    <div>
+    <div className="image-slider">
       <button onClick={prevSlide}>
         <FaArrowAltCircleLeft />
       </button>

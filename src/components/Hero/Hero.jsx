@@ -25,7 +25,7 @@ const Hero = () => {
           exercitationem, impedit assumenda?
         </p>
 
-        <div>
+        <div className="hero-rating">
           <h2>Leave a Review</h2>
           <StarRating initialRating={rating} onChange={handleRatingChange} />
           <button onClick={submitReview}>Submit Review</button>

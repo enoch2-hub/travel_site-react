@@ -7,6 +7,7 @@
 .getapp-banner {
     z-index: 0;
     border-radius: 2rem;
+    margin-left: -4rem;
     background-color: rgb(31, 31, 31);
     padding-top: 15rem;
     width: 90rem;
@@ -17,7 +18,7 @@
 }
 
 .getapp-background-img {
-    /* position: absolute; */
+    position: absolute;
     z-index: 1;
     margin-top: -12rem;
     width: 90rem;
@@ -27,16 +28,16 @@
 .getapp-banner-text{
     z-index: 1;
     margin-top: -10rem;
-    /* margin-left: 5rem; */
+    margin-left: 6rem;
     color: aliceblue;
     font-size: 4rem;
 }
 
 
 .getapp-banner-img img{
-    /* position: absolute; */
+    position: absolute;
     z-index: 1;
-    /* margin-left: -35rem; */
+    margin-left: -35rem;
     width: 50rem;
     height: 30rem;
     border-radius: 3rem;
@@ -54,4 +55,55 @@
 
 .getapp-btn-ios:active, .getapp-btn-android:active {
     transform: scale(0.98);
+}
+
+
+
+@media (max-width: 1800px) {
+    .getapp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -20rem;
+    }
+    .getapp-banner, .getapp-background-img{
+        width: 70rem;
+    }
+
+    .getapp-banner-img img{
+        margin-left: -20rem;
+        width: 40rem;
+        height: 25rem;
+    }
+}
+
+@media (max-width: 1600px) {
+    .getapp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-left: -20rem; */
+    }
+    .getapp-banner, .getapp-background-img{
+        width: 50rem;
+    }
+
+    .getapp-banner-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+
+    .getapp-btn-ios, .getapp-btn-android{
+        width: 18rem;
+    }
+
+
+    .getapp-banner-img img{
+        align-self: center;
+        width: 40rem;
+        height: 25rem;
+        margin-top: 8rem;
+    }
 }
