@@ -16,7 +16,7 @@ function App() {
         <Camp/>
         <Guide/>
         <Features/>
-        <Getapp/>
+        {/* <Getapp/> */}
       <Footer/>
     </div>
   );

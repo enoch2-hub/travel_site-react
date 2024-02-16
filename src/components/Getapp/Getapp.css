@@ -17,7 +17,7 @@
 }
 
 .getapp-background-img {
-    position: absolute;
+    /* position: absolute; */
     z-index: 1;
     margin-top: -12rem;
     width: 90rem;
@@ -27,16 +27,16 @@
 .getapp-banner-text{
     z-index: 1;
     margin-top: -10rem;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
     color: aliceblue;
     font-size: 4rem;
 }
 
 
 .getapp-banner-img img{
-    position: absolute;
+    /* position: absolute; */
     z-index: 1;
-    margin-left: -35rem;
+    /* margin-left: -35rem; */
     width: 50rem;
     height: 30rem;
     border-radius: 3rem;

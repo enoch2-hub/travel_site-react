@@ -5,26 +5,33 @@ footer {
     margin-top: 20rem;
 }
 
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .footer-logo {
+  margin-top: 10rem;
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 5rem;
     font-family: cursive;
     cursor: pointer;
 }
-  
 .footer-logo img { 
   width: 20rem;
   height: 20rem;
 }
-
 .footer-logo p {
   color: rgb(163, 8, 93);
 }
 
-.footer-content {
+.footer-links {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  gap: 5rem;
 }
 
 .footer-section {
@@ -46,10 +53,26 @@ footer {
 }
 
 
+@media (max-width:1600px) {
+  .footer-logo {
+    font-size: 4rem;
+  }
 
+  .footer-logo img {
+    width: 15rem;
+    height: 15rem;
+  }
 
+  .footer-links {
+    gap: 1rem;
+  }
+}
 
-
+@media (max-width:1280px) {
+  .footer-section:nth-child(-n+2) {
+    flex-direction: column;
+  }
+}
 
 
   
