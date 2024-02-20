@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-1">
-        <h1 className="hero-title">WanderWise Expeditions</h1>
+        <h1 className="hero-title">Wander wise Expeditions</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
           esse recusandae repellat quas commodi aliquam beatae, dolores porro

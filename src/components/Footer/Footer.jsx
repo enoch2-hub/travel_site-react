@@ -41,13 +41,13 @@ const Footer = () => {
       {/* <Link> */}
       <div className="footer-logo">
         <img src={require("../../Assets/logo.png")} alt="Logo" />
-        <p>WWE</p>
+        <p>WwE</p>
       </div>
       {/* </Link> */}
 
       <div className="footer-bottom">
         <hr />
-        <p>&copy; 2024 Wander Wise Expeditions. All rights reserved.</p>
+        <p>&copy; 2024 Wander wise Expeditions. All rights reserved.</p>
       </div>
     </footer>
   );

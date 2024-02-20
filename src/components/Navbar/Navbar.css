@@ -65,18 +65,18 @@
 }
 
 .signup-login-mini {
-    display: flex;
-    margin-top: 4rem;
+    display: none;
+    width: 1rem;
     list-style: none;
     align-items: center;
+    flex-direction: column;
     color: #000;
     background-color: #e6efff;
     border: 1px solid #282c34;
     cursor: pointer;
-    padding: 1rem 2rem;
-    font-size: 1.3rem;
+    padding: 1rem;
+    font-size: 0.6rem;
     border-radius: 2rem;
-    display: none;
 }
 
 .signup-login-mini:active{

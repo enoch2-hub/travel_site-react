@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import SignupLogin from "../SignupLogin/SignupLogin";
 import { CiUser } from "react-icons/ci";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FaRegWindowClose } from "react-icons/fa";
@@ -13,19 +14,16 @@ const Navbar = () => {
     setIsDrawerOpen(!isDrawerOpen);
   };
 
+  const closeDrawer = () => {
+    setIsDrawerOpen(false);
+  };
+
   return (
     <nav className="navbar">
       <div className="nav-logo">
         <img src={require("../../Assets/logo.png")} alt="Logo" />
-        <p>WWE</p>
+        <p>WwE</p>
       </div>
-
-      {/* <ul className="nav-links">
-          <li>Home</li>
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul> */}
 
       <div className={`nav-links ${isDrawerOpen ? "open" : ""}`}>
         <ul>
@@ -34,16 +32,9 @@ const Navbar = () => {
           <li>About</li>
           <li>Contact</li>
         </ul>
-        <button className="signup-login-mini">
-          <CiUser />
-          Sign Up
-        </button>
       </div>
 
-      <button className="signup-login">
-        <CiUser />
-        Sign Up
-      </button>
+      <SignupLogin onClose={closeDrawer} />
 
       <button className="drawer-toggle" onClick={toggleDrawer}>
         {isDrawerOpen ? <FaRegWindowClose /> : <RxHamburgerMenu />}
