@@ -59,6 +59,26 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1800px) {
     .getapp {
         display: flex;
@@ -105,5 +125,98 @@
         width: 40rem;
         height: 25rem;
         margin-top: 8rem;
+    }
+}
+
+
+@media (max-width: 1250px) {
+    .getapp {
+        padding-left:14rem ;
+    }
+    .getapp-banner-img img{
+        width: 30rem;
+        height: 20rem;
+        margin-left: -20rem;
+
+    }
+}
+
+@media screen and (max-width:980px) {
+    .getapp-banner {
+        margin-left: 3rem;
+        width: 40rem;
+        height: 10rem;
+    }
+    .getapp-background-img{
+        width: 40rem;
+        height: 30rem;    
+    }
+    .getapp-banner-text {
+        font-size: 3rem;
+        margin-top: -17rem;
+    }
+    .getapp-banner-img img{
+        width: 20rem;
+        height: 15rem;
+        margin-left: -18rem;
+        margin-top: 3rem;
+    }
+    .getapp-btn-ios, .getapp-btn-android {
+        margin-left: -3rem;
+        width: 8rem;
+        padding: 1rem 1rem;
+        border-radius: 2rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:700px) {
+    .getapp-banner {
+        width: 30rem;
+    }
+    .getapp-background-img{
+        width: 30rem; 
+    }
+    .getapp-banner-text {
+        font-size: 2.5rem;
+    }
+
+}
+@media screen and (max-width:532px) {
+    .getapp-banner {
+        margin-left: 5rem;
+    }
+    .getapp-background-img{
+        width: 30rem; 
+    }
+    .getapp-banner-text {
+        font-size: 2.5rem;
+    }
+    .getapp-banner-img img{
+        width: 20rem;
+        height: 15rem;
+        margin-left: -20rem;
+        margin-top: -8rem;
+    }
+    .getapp-btn-ios, .getapp-btn-android {
+        margin-left: -5rem;
+    }
+}
+
+@media screen and (max-width:452px) {
+    .getapp-banner-text {
+        font-size: 1rem;
+        margin-top: -15rem;
+    }
+    .getapp-btn-ios{
+        margin-top: 17rem;
+        margin-left: -2rem;
+    }
+    .getapp-btn-android {
+        margin-top: -5.8rem;
+        margin-left: 8rem;
+        /* margin-top: 10rem; */
+    }
+    .getapp-background-img{
+        width: 100%;
     }
 }

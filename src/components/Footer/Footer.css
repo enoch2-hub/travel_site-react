@@ -1,78 +1,100 @@
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10rem;
-    margin-top: 20rem;
+  margin-top: 20rem;
+  background-color: #1f1f1f;
+  padding: 20px;
 }
 
 .footer-content {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.footer-logo {
-  margin-top: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 5rem;
-    font-family: cursive;
-    cursor: pointer;
-}
-.footer-logo img { 
-  width: 20rem;
-  height: 20rem;
-}
-.footer-logo p {
-  color: rgb(163, 8, 93);
+.footer-section {
+  margin-bottom: 20px;
 }
 
 .footer-links {
   display: flex;
-  flex-direction: row;
-  gap: 5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.footer-section {
-  flex: 1;
+form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.footer-section h3 {
-  font-size: 1.2rem;
+input,
+button {
   margin-bottom: 10px;
+  padding: 5px;
 }
 
-.footer-section p {
-  margin: 0;
-}
-
-.footer-bottom {
-  margin-top: 20rem;
+.footer-logo {
+  margin-top: 20px;
   text-align: center;
 }
 
+.footer-logo img {
+  width: 50px; /* Adjust the size as needed */
+}
 
-@media (max-width:1600px) {
-  .footer-logo {
-    font-size: 4rem;
-  }
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
 
-  .footer-logo img {
-    width: 15rem;
-    height: 15rem;
-  }
 
+
+
+
+
+
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
   .footer-links {
-    gap: 1rem;
+    flex-basis: 50%;
   }
 }
 
-@media (max-width:1280px) {
-  .footer-section:nth-child(-n+2) {
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    width: 100%;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  form {
     flex-direction: column;
   }
 }
 
+@media (max-width: 576px) {
+  .footer-links {
+    flex-basis: 100%;
+  }
 
-  
+  .footer-logo {
+    margin-top: 20px;
+  }
+
+  .footer-logo img {
+    width: 8rem; /* Adjust the size as needed */
+    height: 8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  form {
+    flex-direction: column;
+  }
+}

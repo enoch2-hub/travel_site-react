@@ -64,6 +64,7 @@
   .hero-title {
     align-self: center;
     box-shadow: 0 1rem 2rem 0.5rem rgba(0, 6, 83, 0.719);
+    font-size: 3rem;
   }
 
   .hero-rating {
@@ -85,4 +86,12 @@
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove default image spacing */
   }
+}
+
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 0 2rem;
+  }
+
 }

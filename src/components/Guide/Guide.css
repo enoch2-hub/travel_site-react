@@ -1,52 +1,114 @@
-.guide{
-    margin-top: 20rem;
+/* CSS for the guide component */
+.guide {
+    position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    height: 80vh;
-}
-
-.guide_text{
-    display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 20px;
+    text-align: center;
+    height: 30rem;
+    margin-top: 18rem;
+  }
+  
+  .guide_text {
+    position: relative;
+    z-index: 2;
+    display: flex;
     flex-direction: row;
+    width: 100%;
+  }
+  
+  .guide_text-left,
+  .guide_text-right {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .guide_text-left {
+    background-color: rgba(0, 123, 255, 0.8);
+    color: #fff;
+  }
+  
+  .guide_text-right {
+    background-color: rgba(242, 242, 242, 0.8);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .guide-img {
     position: absolute;
-    z-index: 1;
-    margin-top: -20rem;
-    padding: 0 4rem;
-}
-
-.guide_text-left{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 10rem;
-    background-color: aliceblue;
-    box-shadow: 0 1rem 2rem 0.5rem rgba(0, 6, 83, 0.719);
-}
-
-.guide_text-right{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 10rem 4rem;
-    height: 5rem;
-    font-size: 1.3rem;
-    border-radius: 2rem;
-    color: rgb(31, 31, 31);
-    background-color: rgb(110, 187, 255);
-    border: 1rem solid rgb(255, 255, 255);
-    box-shadow: 0 1rem 8rem 0.5rem rgba(0, 6, 83, 0.719);
-}
-
-
-.guide-img img{
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 2rem;
-}
+    z-index: 1;
+  }
+  
+  .guide-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .guide_text {
+      flex-direction: column;
+    }
+  
+    .guide_text-left,
+    .guide_text-right {
+      width: 100%;
+    }
+  
+    .guide-img img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .guide_text-right {
+      font-size: 0.9rem;
+    }
+  
+    .guide-img img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .guide_text-left,
+    .guide_text-right {
+      font-size: 0.8rem;
+    }
+  
+    .guide-img img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .guide_text-left,
+    .guide_text-right {
+      font-size: 0.7rem;
+    }
+  
+    .guide-img img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

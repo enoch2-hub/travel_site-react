@@ -6,8 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-content">
-
-      <div className="footer-links">
+        <div className="footer-links">
           <div className="footer-section">
             <h3>Contact Us</h3>
             <p>Email: info@wanderwise.com</p>
@@ -25,14 +24,18 @@ const Footer = () => {
             <p>Features</p>
             <p>Reviews</p>
           </div>
-          <div className="footer-section">
-            <h3>Explore</h3>
-            <p>Destinations</p>
-            <p>Features</p>
-            <p>Reviews</p>
+          <div>
+            <h3>Subscribe to Our Newsletter</h3>
+            <p>
+              Stay updated with our latest offers, travel tips, and more by
+              subscribing to our newsletter.
+            </p>
+            <form>
+              <input type="email" placeholder="Your Email" />
+              <button type="submit">Subscribe</button>
+            </form>
           </div>
-      </div>
-
+        </div>
       </div>
 
       {/* <Link> */}
@@ -41,7 +44,6 @@ const Footer = () => {
         <p>WWE</p>
       </div>
       {/* </Link> */}
-
 
       <div className="footer-bottom">
         <hr />

@@ -10,7 +10,7 @@ const Hero = () => {
     setRating(newRating);
   };
   const submitReview = () => {
-    // Handle submitting the review with the selected rating
+    // Handle submitting the review with the selected rating00
     console.log(`Submitted review with rating: ${rating}`);
   };
 
