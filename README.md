@@ -9,8 +9,13 @@ Wander Wise Expeditions is a travel website that offers unique and customizable 
 - [Installation](#installation)
 
 ## Demo
+![image](https://github.com/enoch2-hub/travel_site-react/assets/151722245/a708198b-2b1b-4a24-a22c-c8fab6117c10)
 
-Include a link or GIF showcasing the demo of your website.
+![image](https://github.com/enoch2-hub/travel_site-react/assets/151722245/2f01df72-578d-4eb0-9aed-0bf65010c777)
+
+![image](https://github.com/enoch2-hub/travel_site-react/assets/151722245/69d1085c-e346-40ed-9440-ad65a7d82b93)
+
+![image](https://github.com/enoch2-hub/travel_site-react/assets/151722245/5d222847-b9f1-4f52-9d96-0bf9beb116b8)
 
 ## Features
 
